@@ -1,6 +1,6 @@
 {
   "name": "@hsjs/svelte-icons",
-  "version": "0.0.1-rc.3",
+  "version": "0.0.1-rc.4",
   "main": "index.js",
   "license": "MIT",
   "publishConfig": {
@@ -11,6 +11,7 @@
   ],
   "type": "module",
   "exports": {
+    "./package.json": "./package.json",
     "./feather/*": "./dist/feather/*"
   },
   "devDependencies": {
